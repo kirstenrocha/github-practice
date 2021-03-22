@@ -1,2 +1,25 @@
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+  background-color: rgb(73, 172, 73);
+  border-style: solid;
+  border-color: rgb(255, 217, 0);
+  border width: 1px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
+  background-color: rgb(255, 217, 0);
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+  padding: 10px;
 }
